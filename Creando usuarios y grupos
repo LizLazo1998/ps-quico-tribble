@@ -1,0 +1,13 @@
+Como primer paso, para crear un grupo en GNU / Linux primero debemos ingresar como usuario root ...
+
+¡Una vez hemos ingresado como usuario root, haremos el siguiente paso y crearemos un usuario con el siguiente comando: groupadd casa ...
+¡Para verificar si el grupo fue creado exitosamente vamos a utilizar el siguiente comando: cat / etc / group ..
+este comando nos motrara en el en pantalla si el grupo fue creado ..
+¡Acontinuacion usaremos el siguiente comando para crear dos usuarios:
+ Comando useradd Anderson
+ Comando useradd Ciany 
+¡Ahora usaremos el siguiente comando para hacer añadir los usuarios que acabamos de crear al grupo casa, para ello usaremos los siguientes comandos:
+  comando: adduser Andeerson casa.
+  comando: adduser Ciany casa.
+¡Si queremos cambiar el nombre al grupo, usaremos el comando: groupmod -n Familia casa (Estamos especificando que el nuevo nombre del grupo será Familia)
+¡Para verificar si el nombre del grupo fue actualizado correctamente usaremos el comando: cat / etc / group

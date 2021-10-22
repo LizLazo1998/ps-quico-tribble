@@ -1,2 +1,0 @@
-# ps-quico-tribble
-trabajo
